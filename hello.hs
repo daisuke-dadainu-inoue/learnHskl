@@ -33,6 +33,11 @@ main = do
     print $ twice twice square 2
     print $ map (\x -> x * x) [1, 2, 3, 4, 5]
     print $ double 3
+    print $ head [1, 2, 3]
+    print $ tail [1, 2, 3]
+    print ([1] ++ [2, 3])
+    print $ length [1,2,3]
+    print $ map (2 *) [1, 2, 3]
 {-
 main = do 
     putStrLn 
